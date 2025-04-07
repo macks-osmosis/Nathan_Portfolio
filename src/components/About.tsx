@@ -20,14 +20,10 @@ export const About = () => {
                 <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
                   About{" "}
                 </span>
-                Company
+                Me
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit.
+              I'm a music producer based in the Pacific Northwest, blending the natural beauty of Oregon and Washington into my sound. My work draws from a range of genres, creating immersive, atmospheric tracks that reflect the region’s rugged landscapes and vibrant music scene. Whether I’m crafting chill lo-fi beats or high-energy electronic grooves, I’m all about capturing moments and moods through sound. Let’s create something unforgettable together.
               </p>
             </div>
 

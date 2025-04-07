@@ -1,4 +1,4 @@
-import { LogoIcon } from "./Icons";
+import { Music, Headphones, Mic2, Instagram, Youtube, Disc } from "lucide-react";
 
 export const Footer = () => {
   return (
@@ -10,22 +10,26 @@ export const Footer = () => {
           <a
             rel="noreferrer noopener"
             href="/"
-            className="font-bold text-xl flex"
+            className="font-bold text-xl flex items-center gap-2"
           >
-            <LogoIcon />
-            ShadcnUI/React
+            <Music className="w-6 h-6" />
+            Nathan Anglin
           </a>
+          <p className="text-muted-foreground mt-2">
+            Professional music producer specializing in electronic, pop, and hip-hop production.
+          </p>
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Follow US</h3>
+          <h3 className="font-bold text-lg">Connect</h3>
           <div>
             <a
               rel="noreferrer noopener"
               href="#"
-              className="opacity-60 hover:opacity-100"
+              className="opacity-60 hover:opacity-100 flex items-center gap-2"
             >
-              Github
+              <Disc className="w-4 h-4" />
+              Spotify
             </a>
           </div>
 
@@ -33,9 +37,10 @@ export const Footer = () => {
             <a
               rel="noreferrer noopener"
               href="#"
-              className="opacity-60 hover:opacity-100"
+              className="opacity-60 hover:opacity-100 flex items-center gap-2"
             >
-              Twitter
+              <Youtube className="w-4 h-4" />
+              YouTube
             </a>
           </div>
 
@@ -43,22 +48,24 @@ export const Footer = () => {
             <a
               rel="noreferrer noopener"
               href="#"
-              className="opacity-60 hover:opacity-100"
+              className="opacity-60 hover:opacity-100 flex items-center gap-2"
             >
-              Dribbble
+              <Instagram className="w-4 h-4" />
+              Instagram
             </a>
           </div>
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Platforms</h3>
+          <h3 className="font-bold text-lg">Services</h3>
           <div>
             <a
               rel="noreferrer noopener"
               href="#"
-              className="opacity-60 hover:opacity-100"
+              className="opacity-60 hover:opacity-100 flex items-center gap-2"
             >
-              Web
+              <Music className="w-4 h-4" />
+              Production
             </a>
           </div>
 
@@ -66,9 +73,10 @@ export const Footer = () => {
             <a
               rel="noreferrer noopener"
               href="#"
-              className="opacity-60 hover:opacity-100"
+              className="opacity-60 hover:opacity-100 flex items-center gap-2"
             >
-              Mobile
+              <Headphones className="w-4 h-4" />
+              Mixing
             </a>
           </div>
 
@@ -76,9 +84,10 @@ export const Footer = () => {
             <a
               rel="noreferrer noopener"
               href="#"
-              className="opacity-60 hover:opacity-100"
+              className="opacity-60 hover:opacity-100 flex items-center gap-2"
             >
-              Desktop
+              <Mic2 className="w-4 h-4" />
+              Mastering
             </a>
           </div>
         </div>
@@ -91,7 +100,7 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Features
+              Portfolio
             </a>
           </div>
 
@@ -111,20 +120,20 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              FAQ
+              Contact
             </a>
           </div>
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Community</h3>
+          <h3 className="font-bold text-lg">Legal</h3>
           <div>
             <a
               rel="noreferrer noopener"
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Youtube
+              Privacy Policy
             </a>
           </div>
 
@@ -134,7 +143,7 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Discord
+              Terms of Service
             </a>
           </div>
 
@@ -144,7 +153,7 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Twitch
+              Licensing
             </a>
           </div>
         </div>
@@ -152,15 +161,7 @@ export const Footer = () => {
 
       <section className="container pb-14 text-center">
         <h3>
-          &copy; 2024 Landing page made by{" "}
-          <a
-            rel="noreferrer noopener"
-            target="_blank"
-            href="https://www.linkedin.com/in/leopoldo-miranda/"
-            className="text-primary transition-all border-primary hover:border-b-2"
-          >
-            Leo Miranda
-          </a>
+          &copy; 2025 Nathan Anglin Music. All rights reserved.
         </h3>
       </section>
     </footer>
