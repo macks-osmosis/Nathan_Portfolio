@@ -10,7 +10,6 @@ import {
   CardFooter,
 } from "@/components/ui/card";
 import { Music, Headphones, Mic2 } from "lucide-react";
-import { GitHubLogoIcon } from "@radix-ui/react-icons";
 
 export const HeroCards = () => {
   return (
